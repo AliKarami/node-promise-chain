@@ -1,5 +1,9 @@
 # node-promise-chain
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Gratipay][gratipay-image]][gratipay-url]
+
 Chains an array of functions that return promises
 
 ## Installation
@@ -82,3 +86,9 @@ promiseChain(promises, context).then(function() {
 // done
 ```
 
+[npm-image]: https://img.shields.io/npm/v/promise-chain.svg?style=flat
+[npm-url]: https://npmjs.org/package/promise-chain
+[downloads-image]: https://img.shields.io/npm/dm/promise-chain.svg?style=flat
+[downloads-url]: https://npmjs.org/package/promise-chain
+[gratipay-image]: https://img.shields.io/gratipay/DanielHuisman.svg?style=flat
+[gratipay-url]: https://gratipay.com/DanielHuisman/
