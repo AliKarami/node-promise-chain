@@ -1,0 +1,30 @@
+{
+  "name": "promise-chain",
+  "version": "1.0.0",
+  "description": "Chains an array of functions that return promises",
+  "author": "Daniel Huisman <danielhuisman.developement@gmail.com> (https://github.com/DanielHuisman)",
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [
+    "promise",
+    "chain",
+    "array",
+    "series"
+  ],
+  "homepage": "https://github.com/DanielHuisman/node-promise-chain",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielHuisman/node-promise-chain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielHuisman/node-promise-chain/issues"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "iojs": ">=1.0.0"
+  },
+  "dependencies": {
+    "promise": "^7.0.1"
+  },
+  "devDependencies": {}
+}
