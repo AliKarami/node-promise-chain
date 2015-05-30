@@ -2,7 +2,7 @@
 
 var Promise = require("promise");
 
-module.exports = function(promises, context) {
+module.exports = function(promises, context, data) {
 	if(!Array.isArray(promises)) {
 		promises = !promises ? [] : [promises];
 	}
@@ -14,7 +14,7 @@ module.exports = function(promises, context) {
 		}
 	}
 
-	var promise = Promise.resolve();
+	var promise = Promise.resolve(data);
 	for(var i = 0; i < promises.length; i++) {
 		if(context[i]) {
 			promise = promise.then((function(p, c) {

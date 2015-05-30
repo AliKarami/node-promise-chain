@@ -1,6 +1,6 @@
 {
   "name": "promise-chain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Chains an array of functions that return promises",
   "author": "Daniel Huisman <danielhuisman.developement@gmail.com> (https://github.com/DanielHuisman)",
   "license": "ISC",
