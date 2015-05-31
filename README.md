@@ -15,11 +15,12 @@ $ npm install promise-chain
 
 ## Usage
 ```javascript
-promiseChain(promises[, context]);
+promiseChain(promises[, context[, data]]);
 ```
 
 * **promises** - A list of functions that return a promise when called. Can be an array or a single function. NOTE: supports any promise library that has promises with a *then* function
 * **context** - An optional list of context values for the functions. These will be passed as the thisArg when calling the function. Can be an array or a single object.
+* **data** - An optional data argument to pass to the start of the promise chain. Every promises in the chain should edit or use this data and pass it on to fulfill for the next promise to receive it aswell. 
 
 
 ## Example
