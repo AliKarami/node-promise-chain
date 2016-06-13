@@ -1,7 +1,5 @@
 "use strict";
 
-var Promise = require("promise");
-
 module.exports = function(promises, context, data) {
 	if(!Array.isArray(promises)) {
 		promises = !promises ? [] : [promises];
